@@ -3,18 +3,101 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>App</title>
+    <title>Безкоштовний урок</title>
     <link
       rel="stylesheet"
       href="node_modules/modern-normalize/modern-normalize.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tenor+Sans&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./src/css/styles.css" />
   </head>
   <body>
-    <header class="header"><div class="container"></div></header>
     <main>
-      <section></section>
+      <section class="video-section">
+        <div class="container">
+          <div class="video-wrapper">
+            <div class="watch-here-box">
+              <img
+                class="arrow"
+                src="./src/img/watch-arrow.svg"
+                alt="arrow"
+                width="12"
+                height="8"
+              />
+              <p class="watch-text">Дивитись тут</p>
+              <img
+                class="arrow"
+                src="./src/img/watch-arrow.svg"
+                alt="arrow"
+                width="12"
+                height="8"
+              />
+            </div>
+            <div class="video-box">
+              <iframe
+                class="video"
+                src="https://www.youtube.com/embed/bWqddzWUR6c?si=Q3xWtGJvTbGCCFIc"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="what-wait">
+        <div class="container">
+          <h2 class="wait-title">Що чекає вас у відео?</h2>
+          <ul class="wait-list">
+            <li class="list-item">Освоїте дієвий інструмент</li>
+            <li class="list-item">
+              Навчитесь пропрацьовувати обмежуючі переконання бідності
+            </li>
+            <li class="list-item">
+              Визначите основні програми, які блокують ріст грошей
+            </li>
+            <li class="list-item">
+              Навчитесь стабілізувати свій внутрішній стан
+            </li>
+          </ul>
+          <div class="free-analysis-container">
+            <div class="free-title-container">
+              <p class="free-subtitle">Бронюйте місце на особистий</p>
+              <p class="free-title">безкоштовний розбір</p>
+            </div>
+            <p class="free-text">
+              <span class="weight"
+                >свого поточного стану в ключових сферах життя,</span
+              >
+              щоб виявити приховані блоки та сформулювати
+              <span class="weight color"
+                >чіткий план до гармонії і багатства</span
+              >
+            </p>
+            <a
+              class="free-btn link"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeSjHqA5N0_HzBD64Ep3Npmsn1pxrhQQGKRUNpYuvPnMaDOXA/viewform?usp=sharing"
+              target="_blank"
+              rel="nofollow"
+              >ЗАПИСАТИСЬ</a
+            >
+          </div>
+          <div class="impotant-container">
+            <h3 class="impotant-title">важливо</h3>
+            <p class="impotant-text">
+              Будьте на зв' язку в Telegram, щоб записатись на розбір. Кількість
+              місць обмежена!
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer class="footer"><div class="container"></div></footer>
   </body>
 </html>
